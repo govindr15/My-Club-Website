@@ -1,0 +1,169 @@
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  height:auto;
+  position:relative;
+}
+.labels{
+  position: absolute;
+  right:20px;
+}
+.adidas{
+  height: 40px;
+  width: 60px;
+}
+.chevrolet{
+  height: 40px;
+  width: 70px;
+}
+.aon{
+  height: 40px;
+  width: 70px;
+}
+.kohler{
+  height: 40px;
+  width: 70px;
+}
+.manutd{
+  height: 60px;
+  width: 60px;
+}
+#title{
+  background-color: #e4efe7;
+}
+
+.navbar-brand{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+
+}
+.nav-item{
+  padding: 0 30px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+.box{
+  height: 500px;
+  padding: 20px 20px 20px 20px;
+}
+
+.firstBox{
+  display:flex;
+  background: linear-gradient(to right top,rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  height: 500px;
+  width: 300px;
+  position: relative;
+}
+
+.bruno{
+  border-radius: 1rem 1rem 0rem 0rem;
+  margin: 0rem;
+}
+.heading{
+  color: white;
+}
+#news{
+  background-color: #e4efe7;
+}
+.main{
+  padding-bottom: 100px;
+}
+
+
+.share{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.timeline{
+  position: absolute;
+  bottom: 2px;
+  left: 5px;
+}
+.img-hover-zoom {
+  height: 400px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+#shopping{
+  background-image: url('old trafford.jpg');
+  height: auto;
+}
+
+.thirdBox{
+  background: linear-gradient(to right top,rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  height: 500px;
+  width: 300px;
+  position:relative;
+}
+.shoppingBox{
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+.image{
+  padding-left: 20px;
+  padding-top: 70px;
+
+}
+.shop-title{
+  color: white;
+  text-align: center;
+}
+
+.text{
+  position: absolute;
+  bottom:130px;
+  left:10px;
+}
+.btn{
+  border-radius: 1rem;
+  margin: 2rem 0rem;
+  width:140px;
+  height: 50px;
+}
+.butn{
+  position: absolute;
+  bottom:30px;
+  left:80px;
+}
+
+.pom-heading{
+  font-family: 'Bebas Neue', cursive;
+
+}
+h2{
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+#footer{
+  background-color: #e4efe7;
+  text-align: center;
+  padding:5% 15%;
+}
+
+.icon{
+  padding-left: 2%;
+  padding-right: 2%;
+}
